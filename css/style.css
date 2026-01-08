@@ -2,3 +2,10 @@ h1{
     color: aqua;
     
 }
+.footer{
+    color: rgb(244, 240, 240);
+    text-align: center;
+    padding: 120px 120px 30px 120px ;
+    background-origin: padding-box;
+    background-color: black;
+}
