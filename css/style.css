@@ -1,22 +1,82 @@
-       h1{
-            color: rgb(83, 20, 230) ;
-            text-transform: capitalize;
-            text-align: center;
-            
-        }
-        .footer{
-                color: rgb(244, 240, 240);
-                text-align: center;
-                padding: 120px 120px 30px 120px ;
-                background-origin: padding-box;
-                background-color: black;
-        }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
 
 
-/* CheckCircle  section */
+
+        /* card section     */
+
+#third{
+    width: 100%;
+    height: 448px;
+}
+.third-heading{
+    text-align: center;
+    align-items: center;
+}
+.third-head h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.third-head p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 44px;
+}
+.card{
+    border-radius: 9px;
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
+    height: 280px;
+    width: 280px;
+    cursor: pointer;
+}
+/* card hover */
+
+.card:hover{
+    background-color: rgb(175, 232, 211);
+    font-size: 1.5em;
+    border-radius:20px ;
+    color: #01080e;
+    box-shadow: 5px -5px 5px , -5px 5px rgb(136, 132, 132);
+    transition:  background-color 1s ease;
+    cursor: pointer;
+}
+.card img{
+    background-color: #F95555;
+    margin-top: 69px ;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.card h5{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 16px;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+    padding: 10px;
+}
+
+
+
+    /* CheckCircle  section */
 
 .main-section{
     margin-top: 120px;
