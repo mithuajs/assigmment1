@@ -1,7 +1,49 @@
+ /* Not: aj 9  january agamikal 10 january amar exam asay   (java programming ), 
+ joto tuku paici chasta korci , Exam na thakle aro valo kore time dithe partam,
+next assigmment e aro valo hobe in sha allah  */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* start navigation (nav)  */
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+.head{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head .list .menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #000000;
+}
+.head .botom .btn{
+    background-color: #469165;
+    height: 44px;
+    width: 164px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.head .botom .btn:hover{
+    background-color: rgb(16, 99, 48);
+    font-size: 18px ;
+    transition:  background-color 1s ease;
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
 }
 
 
@@ -87,7 +129,6 @@
     gap: 5px;
     cursor: pointer;
 }
-
    /* second head bottom hover */
 
 .second-bottom .third-bottom:hover{
@@ -114,6 +155,8 @@
     gap: 5px;
     cursor: pointer;
 }
+
+
 
 
 
@@ -186,6 +229,10 @@
 
 
 
+
+
+
+
     /* CheckCircle  section */
 
 .main-section{
@@ -238,6 +285,8 @@
     display: flex;
     gap: 8px;
 }
+
+
 
 
 
@@ -306,6 +355,8 @@
 
 
 
+
+
 /* #start-footer */
 
 #start-footer{
@@ -348,3 +399,4 @@
     display: flex;
     gap: 20px;
 }
+
