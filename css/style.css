@@ -12,7 +12,65 @@
                 background-color: black;
         }
 
-        
+
+
+
+
+/* CheckCircle  section */
+
+.main-section{
+    margin-top: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.main-section .main-photo{
+    margin-left: 20px;
+    height: 600px;
+    width: 600px;
+}
+
+.main-text {
+    text-align: left;
+    height: 396px;
+    width: 700px;
+    margin: auto;
+    align-items: center;
+}
+
+.main-head tt{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+
+}
+
+
+.main-head h5{
+    font-size: 48px;
+    font-weight: bold;
+    width: 605px;
+    height: 116px;
+    margin-bottom: 16px;
+}
+.main-head .second-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    height: 57px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.listing p{
+    margin-bottom: 16px;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+
+
 
  /* end section work */
 #end-main{
