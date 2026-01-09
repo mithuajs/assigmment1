@@ -9,6 +9,116 @@
 
 
 
+
+  /* second head start or  background image section */
+
+#second-header{
+    background-image: url("../image/assets1/hero-bg.png");
+    width: 100%;
+    height: 568px;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+   
+}
+ .bg{
+    position: absolute;
+    margin: 100px 230px 180px;
+    text-align: center;
+    height: 380px;
+
+}
+.second-head .top{
+    background-color: #FFFFFF;
+    width: 229px;
+    height: 36px;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16;
+    font-weight: 500px;
+    margin-bottom: 16px;
+    color: #469165;
+}
+.second-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-size: 100px;
+}
+.second-head p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+.second-head .top:hover{
+    background-color: rgb(223, 143, 143);
+    font-size: 18px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    transition:  background-color 1s ease;
+
+}
+
+
+.second-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+    position: relative;
+    align-items: center;
+    
+}
+.second-bottom .forth-bottom{
+    padding: 10px 10px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid rgb(239, 227, 227);
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+   /* second head bottom hover */
+
+.second-bottom .third-bottom:hover{
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
+    background-color: #047a35;
+    color: #e8edea;
+    transition:  background-color 1s ease;
+    cursor: pointer;
+}
+.second-bottom .forth-bottom:hover{
+    background-color: #047a35;
+    color: #f8f8f8;
+    box-shadow: 3px -3px 3px , -3px 3px rgb(136, 132, 132);
+    transition:  background-color 1s ease;
+}
+.second-bottom .third-bottom{
+    border: 2px solid white;
+    color: #469165;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
         /* card section     */
 
 #third{
